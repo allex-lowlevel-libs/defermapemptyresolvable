@@ -1,0 +1,29 @@
+{
+  "name": "allex_defermapemptyresolvablelowlevellib",
+  "version": "1.0.0",
+  "description": "DeferMap that can resolve a whenEmpty() call",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allex-lowlevel-libs/defermapemptyresolvable.git"
+  },
+  "dependencies": {
+    "allex_defermaplowlevellib": "1.x"
+  },
+  "keywords": [
+    "ecosystem:AllexJS",
+    "defer",
+    "map",
+    "empty",
+    "resolvable"
+  ],
+  "author": "Andrija Petrovic <andrija.hers@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allex-lowlevel-libs/defermapemptyresolvable/issues"
+  },
+  "homepage": "https://github.com/allex-lowlevel-libs/defermapemptyresolvable#readme"
+}
