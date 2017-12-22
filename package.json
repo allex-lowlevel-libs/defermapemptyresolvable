@@ -1,6 +1,6 @@
 {
   "name": "allex_defermapemptyresolvablelowlevellib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DeferMap that can resolve a whenEmpty() call",
   "main": "index.js",
   "scripts": {

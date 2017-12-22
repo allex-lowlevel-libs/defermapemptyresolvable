@@ -15,6 +15,9 @@ describe('Basic Test', function () {
   it ('Get an empty promise', function () {
     emptyPromise = theMap.whenEmpty();
   });
+  it ('Wait on an empty map', function () {
+    return theMap.whenEmpty();
+  });
   it ('Get some promises', function () {
     var i, defername;
     for (i=0; i<promisesToMake; i++) {

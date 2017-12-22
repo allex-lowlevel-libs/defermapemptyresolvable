@@ -25,10 +25,13 @@ function createlib (Map, q, inherit) {
     return ret;
   };
   DeferMapEmptyResolvable.prototype.whenEmpty = function () {
+    var ret;
     if (!this._emptyDefer) {
       this._emptyDefer = q.defer();
     }
-    return this._emptyDefer.promise;
+    ret = this._emptyDefer.promise;
+    this.maybeResolveEmptyDefer();
+    return ret;
   };
   DeferMapEmptyResolvable.prototype.maybeResolveEmptyDefer = function () {
     var ed;
