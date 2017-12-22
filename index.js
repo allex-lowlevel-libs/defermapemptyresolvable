@@ -8,7 +8,7 @@ function createlib (Map, q, inherit) {
   }
   inherit(DeferMapEmptyResolvable, DeferMap);
   DeferMapEmptyResolvable.prototype.destroy = function () {
-    DeferMap.destroy.call(this);
+    DeferMap.prototype.destroy.call(this);
     if (this._emptyDefer) {
       this._emptyDefer.resolve(true);
     }

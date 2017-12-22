@@ -61,4 +61,7 @@ describe('Basic Test', function () {
     theMap.reject(promises.shift());
     return emptyPromise;
   });
+  it ('Destroy the DeferMapEmptyResolvable instance', function () {
+    theMap.destroy();
+  });
 });
